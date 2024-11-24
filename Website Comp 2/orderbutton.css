@@ -1,0 +1,38 @@
+body {
+    overflow: hidden;
+    min-height: 100vh;
+    font-family: Roboto, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e4ecfa;
+}
+
+.order .truck {
+    width: 60px;
+    height: 41px;
+    left: 100%;
+    z-index: 1;
+    top: 11px;
+    position: absolute;
+    transform: translateX(24px);
+}
+
+.order {
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    border: 0;
+    background: var(--dark);
+    position: relative;
+    height: 63px;
+    width: 240px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 32px;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
