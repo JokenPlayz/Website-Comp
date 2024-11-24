@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Feedback - Project Pancasila</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="../index.html" id="navbar__logo">‍  Project Pancasila</a>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="../index.html" class="navbar__links">Home</a></li>
+                <li class="navbar__item"><a href="../tech.html" class="navbar__links">Info</a></li>
+                <li class="navbar__item"><a href="../products.html" class="navbar__links">Products</a></li>
+                <li class="navbar__btn"><a href="../reviews.html" class="button">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Discussion Section -->
+    <div class="discussion">
+        <h1>Product Feedback</h1>
+        <div class="discussion__posts">
+            <div class="post">
+                <h2>We value your feedback!</h2>
+                <p>Share your thoughts on our products and how we can improve.</p>
+            </div>
+            <!-- Add more posts here -->
+        </div>
+        <div class="discussion__form">
+            <h2>Leave Your Feedback</h2>
+            <form action="log_feedback.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <textarea name="feedback" placeholder="Your Feedback" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../app.js"></script>
+</body>
+</html>
