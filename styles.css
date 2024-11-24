@@ -154,6 +154,7 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
+        background: #131313;
     }
 
     .navbar__menu.active {
@@ -189,7 +190,7 @@
         display: table;
     }
 
-    #mobile-menu {
+    #mobile-menu{
         position: absolute;
         top: 20%;
         right: 5%;
@@ -197,7 +198,7 @@
     }
 
     .navbar__btn {
-        padding-bottom: flex;
+        padding-bottom: 2rem;
     }
 
     .button {
@@ -324,6 +325,7 @@
 }
 
 /* Mobile Responsive */
+
 @media screen and (max-width: 768px) {
     .main__container {
         display: grid;
